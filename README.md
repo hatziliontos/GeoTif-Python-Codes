@@ -24,8 +24,8 @@ batch_process_dem_to_slope.py:
  ξεχωριστά αρχεία tif με το ίδιο όνομα DEM και με προσθήκη του επιθέματος
  "_slope", εξαιρούνται από την μετατροπή όσα tif έχουν ήδη επίθεμα "_slope"
 
- εξάρτηση από βιβλιοθήκες: απαιτείται εγκατάσταση με την βοήθεια του pip των rasterio,
- numpy, matplotlib
+ εξάρτηση από βιβλιοθήκες: απαιτείται εγκατάσταση με την βοήθεια του pip των
+ rasterio, numpy, matplotlib
 
  εκτέλεση: python310 batch_process_dem_to_slope.py
 
