@@ -10,6 +10,8 @@ batch_process_dem_to_csv.py:
 1% αύξηση και στο 2ο πίνακα ανά 5% (για εισαγωγή του πίνακα με εύλογο μέγεθος σε
 μια τεχνική έκθεση). Στο τέλος παράγει ξεχωριστά γραφήματα των υψομετρικών καμπυλών.
 
+εξάρτηση από βιβλιοθήκες: απαιτείται εγκατάσταση με την βοήθεια του pip της gdal
+
 εκτέλεση: python310 batch_process_dem_to_csv.py
 
 ```
@@ -17,12 +19,18 @@ batch_process_dem_to_csv.py:
 ```
 batch_process_dem_to_slope.py:
 
+εξάρτηση από βιβλιοθήκες: απαιτείται εγκατάσταση με την βοήθεια του pip των rasterio,
+numpy, matplotlib
+
 εκτέλεση: python310 batch_process_dem_to_slope.py
 
 ```
 
 ```
 batch_clip_dem.py:
+
+εξάρτηση από βιβλιοθήκες: απαιτείται εγκατάσταση με την βοήθεια του pip των rasterio,
+geopandas
 
 εκτέλεση: python310 batch_clip_dem.py dem.tif polygons.gpkg
 
