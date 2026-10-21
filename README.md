@@ -13,6 +13,14 @@ batch_process_dem_to_csv.py:
 εκτέλεση: python310 batch_process_dem_to_csv.py
 
 ```
+
+```
+batch_process_dem_to_slope.py:
+
+εκτέλεση: python310 batch_process_dem_to_slope.py
+
+```
+
 ```
 batch_clip_dem.py:
 
